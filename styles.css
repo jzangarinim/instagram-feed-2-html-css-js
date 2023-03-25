@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+p {
+    margin: 0;
+}
+
+.post {
+    box-sizing: border-box;
+    height: auto;
+    width: 350px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    margin: 12px 0px 12px 10px;
+}
+
+.title {
+    font-size: 13px;
+    margin: 8px 0px 8px 0px;
+    width: 70%;
+}
+
+.options {
+    padding-right: 15px;
+    margin: 12px 0px 12px 0px;
+}
+
+.image {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    padding: 12px 0px 0px 10px;
+}
+
+.footer-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.footer-likes,
+.footer-desc {
+    font-size: 12px;
+    padding: 0px 12px 8px 0px;
+    text-align: justify;
+}
+
+.fa-paper-plane {
+    font-size: 29px;
+}
+
+.buttons-right {
+    padding: 0px 12px 0px 0px;
+}
+
+.fa-heart:hover,
+.fa-comment:hover,
+.fa-paper-plane:hover,
+.fa-bookmark:hover,
+.fa-ellipsis-vertical:hover,
+.fa-html5:hover {
+    cursor: pointer;
+}
+
+#like-button1,
+#like-button2 {
+    color: black;
+}
+
+/* .hidden {
+    visibility: hidden;
+} */
